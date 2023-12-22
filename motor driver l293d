@@ -1,0 +1,17 @@
+#define pin1 5
+#define pin2 6
+#define enablePin 11
+int speed = 200;
+void setup()
+{
+  pinMode(pin1, OUTPUT);
+   pinMode(pin2, OUTPUT);
+   pinMode(enablePin, OUTPUT);
+}
+
+void loop()
+{
+  analogWrite(enablePin,100);
+  digitalWrite(pin1,0);
+  digitalWrite(pin2,1);
+}
