@@ -1,0 +1,26 @@
+#include <Servo.h>
+Servo myServo;
+ int i= 0;
+void setup()
+{
+  pinMode(4, OUTPUT);
+  myServo.attach(4);
+}
+
+void loop()
+{
+ 
+  while(i<180)
+  {
+     myServo.write(i);
+  delay(100);
+    i++;}
+   while(i>0)
+  {
+     myServo.write(i);
+  delay(100);
+    i--;}
+  
+//myServo.write(0);
+  
+}
