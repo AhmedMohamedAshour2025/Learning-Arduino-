@@ -30,3 +30,8 @@ Vcc2: Supply/Output to appear at output = 4.5 to 36 v
 3Y: Channel-2 Output Pin
 4Y: Channel-2 Output Pin
 1A and 2A are control pins of channel 1. 1Y and 2Y are output pins of channel 1. Similarly 3A and 4A are input pins for channel 2 and 3Y, 4Y are output pins for channel 2. 1,2En are enable pins of channel 1. 3,4 EN are enable pins of channel 2. Individual l293d motor driver channel equivalent circuit is given below.
+
+3.IR sensor
+
+![image](https://github.com/AhmedMohamedAshour2025/Learning-Arduino-/assets/139715677/411e3b2b-077c-40ee-b364-abbebe8065b9)
+
