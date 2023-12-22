@@ -35,3 +35,9 @@ Vcc2: Supply/Output to appear at output = 4.5 to 36 v
 
 ![image](https://github.com/AhmedMohamedAshour2025/Learning-Arduino-/assets/139715677/411e3b2b-077c-40ee-b364-abbebe8065b9)
 
+4.ultrasonic sensor 
+
+![image](https://github.com/AhmedMohamedAshour2025/Learning-Arduino-/assets/139715677/d9a9260c-eaac-492f-b444-5cd464b67d7a)
+
+![image](https://github.com/AhmedMohamedAshour2025/Learning-Arduino-/assets/139715677/9a736e59-14dc-46b8-b14e-b7472cf0ae1f)
+
