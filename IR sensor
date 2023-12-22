@@ -1,0 +1,22 @@
+#define led 12 
+#define pin 7
+void setup()
+{
+  pinMode(led, OUTPUT);
+  pinMode(pin, INPUT);
+  Serial.begin(9600);
+}
+
+void loop()
+{
+  if (digitalRead(pin)==LOW){
+    
+    digitalWrite(led,1);
+      Serial.println("object is founded");
+    delay(100);
+  }else{
+     digitalWrite(led,0);
+      Serial.println("clear???");
+    delay(100);
+  }
+}
